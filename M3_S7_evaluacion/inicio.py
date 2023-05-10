@@ -16,3 +16,11 @@ for a , b, c in lista:
     else:
         print(a,b,c)
         
+#segunda forma
+for temp in lista: 
+    if temp[0] == 0: 
+        continue 
+    for num in temp: 
+        if num == 0: 
+            continue 
+        print(num)
